@@ -1,0 +1,40 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.me-contact {
+  background: #1E2137;
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 50%;
+  transform: translateY(-50%);
+  border-radius: 0 5px 5px 0;
+}
+
+.me-contact-item {
+  outline: none;
+  transition: all 200ms ease-in-out;
+}
+.me-contact-item:hover {
+  background: #2c3151;
+}
+.me-contact-item:focus {
+  box-shadow: #FFB800 0 0 0 2px;
+  border-radius: 5px;
+}
+
+.me-contact-link {
+  color: rgba(255, 255, 255, 0.85);
+  font-size: 22px;
+  display: inline-block;
+  padding: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  outline: none;
+}
+
+/*# sourceMappingURL=main.css.map */
